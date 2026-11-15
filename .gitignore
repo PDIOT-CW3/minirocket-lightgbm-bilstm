@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data (not ours to publish, 36 MB)
+datasetJan2026/
+datasetJan2026.zip
+
+# Packaged copy of this project's files (duplicates)
+cnn-bilstm, minirocket, other/
+cnn-bilstm, minirocket, other.zip
+
+# Smoke tests, logs, dev-only models
+smoke/
+*.log
+cw3_out/log_*.txt
+cw3_out/social_mr_heldout*
+
+# Keras checkpoints (reproducible with --mode final; the app uses the .tflite)
+cw3_out/*.keras
